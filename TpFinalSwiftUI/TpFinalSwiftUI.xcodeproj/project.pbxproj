@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED1D60B12948C77900D19056 /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60B02948C77900D19056 /* UserCellView.swift */; };
+		ED1D60B32948C79600D19056 /* UserAlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60B22948C79600D19056 /* UserAlbumsView.swift */; };
+		ED1D60B52948C85300D19056 /* UserGalleryDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60B42948C85300D19056 /* UserGalleryDownloader.swift */; };
 		ED56C8A32948685A005B12A5 /* TpFinalSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8A22948685A005B12A5 /* TpFinalSwiftUIApp.swift */; };
 		ED56C8A52948685A005B12A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8A42948685A005B12A5 /* ContentView.swift */; };
 		ED56C8A72948685B005B12A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED56C8A62948685B005B12A5 /* Assets.xcassets */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED1D60B02948C77900D19056 /* UserCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
+		ED1D60B22948C79600D19056 /* UserAlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAlbumsView.swift; sourceTree = "<group>"; };
+		ED1D60B42948C85300D19056 /* UserGalleryDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserGalleryDownloader.swift; path = ../../TpFinalSwift/TpFinalSwift/UserGalleryDownloader.swift; sourceTree = "<group>"; };
 		ED56C89F2948685A005B12A5 /* TpFinalSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpFinalSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED56C8A22948685A005B12A5 /* TpFinalSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpFinalSwiftUIApp.swift; sourceTree = "<group>"; };
 		ED56C8A42948685A005B12A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,11 +105,14 @@
 			isa = PBXGroup;
 			children = (
 				ED56C8A22948685A005B12A5 /* TpFinalSwiftUIApp.swift */,
+				ED1D60B02948C77900D19056 /* UserCellView.swift */,
 				ED56C8A42948685A005B12A5 /* ContentView.swift */,
 				ED56C8A62948685B005B12A5 /* Assets.xcassets */,
 				ED56C8A82948685B005B12A5 /* Preview Content */,
 				ED56C90E29487A8E005B12A5 /* UserListDownloader.swift */,
 				ED56C91029487AAB005B12A5 /* Users.swift */,
+				ED1D60B22948C79600D19056 /* UserAlbumsView.swift */,
+				ED1D60B42948C85300D19056 /* UserGalleryDownloader.swift */,
 			);
 			path = TpFinalSwiftUI;
 			sourceTree = "<group>";
@@ -266,6 +275,9 @@
 				ED56C91129487AAB005B12A5 /* Users.swift in Sources */,
 				ED56C8A52948685A005B12A5 /* ContentView.swift in Sources */,
 				ED56C8A32948685A005B12A5 /* TpFinalSwiftUIApp.swift in Sources */,
+				ED1D60B32948C79600D19056 /* UserAlbumsView.swift in Sources */,
+				ED1D60B52948C85300D19056 /* UserGalleryDownloader.swift in Sources */,
+				ED1D60B12948C77900D19056 /* UserCellView.swift in Sources */,
 				ED56C90F29487A8E005B12A5 /* UserListDownloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

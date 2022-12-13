@@ -12,12 +12,17 @@ struct ContentView: View {
     
     @State var userList = Users()
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
+        List($downloader.users){user in
+            NavigationLink{
+                UserAlbumsView(user: user)
+            } label: {
+                UserCellView(user: user)
+            }
+        }.onAppear{
+            if(downloader.users.count <= 1){
+                downloader.download(urlString: "https://jsonplaceholder.typicode.com/users")
+            }
+        }.navigationTitle("User list")
         .padding()
     }
 }
