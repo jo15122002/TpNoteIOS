@@ -16,6 +16,14 @@
 		ED56C8F029486938005B12A5 /* TpFinalSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8EF29486938005B12A5 /* TpFinalSwiftTests.swift */; };
 		ED56C8FA29486938005B12A5 /* TpFinalSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8F929486938005B12A5 /* TpFinalSwiftUITests.swift */; };
 		ED56C8FC29486938005B12A5 /* TpFinalSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8FB29486938005B12A5 /* TpFinalSwiftUITestsLaunchTests.swift */; };
+		ED56C90929486C39005B12A5 /* UserJsonDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C90829486C39005B12A5 /* UserJsonDownloader.swift */; };
+		ED56C90B29486C81005B12A5 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C90A29486C81005B12A5 /* Users.swift */; };
+		ED56C90D29486CEC005B12A5 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C90C29486CEC005B12A5 /* UserListViewController.swift */; };
+		ED56C913294881F2005B12A5 /* UserViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C912294881F2005B12A5 /* UserViewCell.swift */; };
+		ED56C915294888D1005B12A5 /* UserGalleriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C914294888D1005B12A5 /* UserGalleriesViewController.swift */; };
+		ED56C91729488988005B12A5 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C91629488988005B12A5 /* Gallery.swift */; };
+		ED56C91929488A23005B12A5 /* UserGalleryDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C91829488A23005B12A5 /* UserGalleryDownloader.swift */; };
+		ED56C91B29489802005B12A5 /* AlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C91A29489802005B12A5 /* AlbumViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		ED56C8F529486938005B12A5 /* TpFinalSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TpFinalSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED56C8F929486938005B12A5 /* TpFinalSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpFinalSwiftUITests.swift; sourceTree = "<group>"; };
 		ED56C8FB29486938005B12A5 /* TpFinalSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpFinalSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED56C90829486C39005B12A5 /* UserJsonDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserJsonDownloader.swift; sourceTree = "<group>"; };
+		ED56C90A29486C81005B12A5 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		ED56C90C29486CEC005B12A5 /* UserListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		ED56C912294881F2005B12A5 /* UserViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewCell.swift; sourceTree = "<group>"; };
+		ED56C914294888D1005B12A5 /* UserGalleriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGalleriesViewController.swift; sourceTree = "<group>"; };
+		ED56C91629488988005B12A5 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
+		ED56C91829488A23005B12A5 /* UserGalleryDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGalleryDownloader.swift; sourceTree = "<group>"; };
+		ED56C91A29489802005B12A5 /* AlbumViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +115,21 @@
 		ED56C8D729486936005B12A5 /* TpFinalSwift */ = {
 			isa = PBXGroup;
 			children = (
+				ED56C912294881F2005B12A5 /* UserViewCell.swift */,
+				ED56C91A29489802005B12A5 /* AlbumViewCell.swift */,
 				ED56C8D829486936005B12A5 /* AppDelegate.swift */,
 				ED56C8DA29486936005B12A5 /* SceneDelegate.swift */,
 				ED56C8DC29486936005B12A5 /* ViewController.swift */,
+				ED56C90C29486CEC005B12A5 /* UserListViewController.swift */,
 				ED56C8DE29486936005B12A5 /* Main.storyboard */,
 				ED56C8E129486937005B12A5 /* Assets.xcassets */,
 				ED56C8E329486937005B12A5 /* LaunchScreen.storyboard */,
 				ED56C8E629486937005B12A5 /* Info.plist */,
+				ED56C90829486C39005B12A5 /* UserJsonDownloader.swift */,
+				ED56C90A29486C81005B12A5 /* Users.swift */,
+				ED56C914294888D1005B12A5 /* UserGalleriesViewController.swift */,
+				ED56C91629488988005B12A5 /* Gallery.swift */,
+				ED56C91829488A23005B12A5 /* UserGalleryDownloader.swift */,
 			);
 			path = TpFinalSwift;
 			sourceTree = "<group>";
@@ -258,9 +282,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED56C91929488A23005B12A5 /* UserGalleryDownloader.swift in Sources */,
+				ED56C91B29489802005B12A5 /* AlbumViewCell.swift in Sources */,
 				ED56C8DD29486936005B12A5 /* ViewController.swift in Sources */,
+				ED56C91729488988005B12A5 /* Gallery.swift in Sources */,
+				ED56C913294881F2005B12A5 /* UserViewCell.swift in Sources */,
 				ED56C8D929486936005B12A5 /* AppDelegate.swift in Sources */,
+				ED56C90B29486C81005B12A5 /* Users.swift in Sources */,
 				ED56C8DB29486936005B12A5 /* SceneDelegate.swift in Sources */,
+				ED56C90929486C39005B12A5 /* UserJsonDownloader.swift in Sources */,
+				ED56C915294888D1005B12A5 /* UserGalleriesViewController.swift in Sources */,
+				ED56C90D29486CEC005B12A5 /* UserListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

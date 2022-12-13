@@ -14,6 +14,8 @@
 		ED56C8B42948685B005B12A5 /* TpFinalSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8B32948685B005B12A5 /* TpFinalSwiftUITests.swift */; };
 		ED56C8BE2948685B005B12A5 /* TpFinalSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8BD2948685B005B12A5 /* TpFinalSwiftUIUITests.swift */; };
 		ED56C8C02948685B005B12A5 /* TpFinalSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8BF2948685B005B12A5 /* TpFinalSwiftUIUITestsLaunchTests.swift */; };
+		ED56C90F29487A8E005B12A5 /* UserListDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C90E29487A8E005B12A5 /* UserListDownloader.swift */; };
+		ED56C91129487AAB005B12A5 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C91029487AAB005B12A5 /* Users.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		ED56C8B92948685B005B12A5 /* TpFinalSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TpFinalSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED56C8BD2948685B005B12A5 /* TpFinalSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpFinalSwiftUIUITests.swift; sourceTree = "<group>"; };
 		ED56C8BF2948685B005B12A5 /* TpFinalSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpFinalSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED56C90E29487A8E005B12A5 /* UserListDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListDownloader.swift; sourceTree = "<group>"; };
+		ED56C91029487AAB005B12A5 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				ED56C8A42948685A005B12A5 /* ContentView.swift */,
 				ED56C8A62948685B005B12A5 /* Assets.xcassets */,
 				ED56C8A82948685B005B12A5 /* Preview Content */,
+				ED56C90E29487A8E005B12A5 /* UserListDownloader.swift */,
+				ED56C91029487AAB005B12A5 /* Users.swift */,
 			);
 			path = TpFinalSwiftUI;
 			sourceTree = "<group>";
@@ -257,8 +263,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED56C91129487AAB005B12A5 /* Users.swift in Sources */,
 				ED56C8A52948685A005B12A5 /* ContentView.swift in Sources */,
 				ED56C8A32948685A005B12A5 /* TpFinalSwiftUIApp.swift in Sources */,
+				ED56C90F29487A8E005B12A5 /* UserListDownloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
