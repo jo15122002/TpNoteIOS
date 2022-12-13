@@ -135,6 +135,7 @@
 				ED56C8DC29486936005B12A5 /* ViewController.swift */,
 				ED56C90C29486CEC005B12A5 /* UserListViewController.swift */,
 				ED56C8DE29486936005B12A5 /* Main.storyboard */,
+				ED56C91629488988005B12A5 /* Gallery.swift */,
 				ED4B0BFF2948B7AE00AE92B7 /* MapViewController.swift */,
 				ED4B0BFD2948B19800AE92B7 /* ImageViewCell.swift */,
 				ED56C8E129486937005B12A5 /* Assets.xcassets */,
@@ -143,10 +144,9 @@
 				ED56C90829486C39005B12A5 /* UserJsonDownloader.swift */,
 				ED56C90A29486C81005B12A5 /* Users.swift */,
 				ED56C914294888D1005B12A5 /* UserGalleriesViewController.swift */,
-				ED56C91629488988005B12A5 /* Gallery.swift */,
+				ED56C9202948A428005B12A5 /* Photos.swift */,
 				ED56C91829488A23005B12A5 /* UserGalleryDownloader.swift */,
 				ED56C91E2948A1E0005B12A5 /* UserPhotosDownloader.swift */,
-				ED56C9202948A428005B12A5 /* Photos.swift */,
 				ED4B0BFB2948B14700AE92B7 /* AlbumPhotosViewController.swift */,
 			);
 			path = TpFinalSwift;

@@ -12,18 +12,20 @@ struct ContentView: View {
     
     @State var userList = Users()
     var body: some View {
-        List($downloader.users){user in
-            NavigationLink{
-                UserAlbumsView(user: user)
-            } label: {
-                UserCellView(user: user)
-            }
-        }.onAppear{
-            if(downloader.users.count <= 1){
-                downloader.download(urlString: "https://jsonplaceholder.typicode.com/users")
-            }
-        }.navigationTitle("User list")
-        .padding()
+        NavigationView{
+            List($downloader.users){user in
+                NavigationLink{
+                    UserAlbumsView(user: user)
+                } label: {
+                    UserCellView(user: user)
+                }
+            }.onAppear{
+                if(downloader.users.count <= 1){
+                    downloader.download(urlString: "https://jsonplaceholder.typicode.com/users")
+                }
+            }.navigationTitle("User list")
+            .padding()
+        }
     }
 }
 

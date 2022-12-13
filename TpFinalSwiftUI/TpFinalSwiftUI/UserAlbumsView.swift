@@ -9,8 +9,24 @@ import SwiftUI
 
 struct UserAlbumsView: View {
     @Binding var user:User
+    @ObservedObject var downloader = UserGalleryDownloader()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ScrollView{
+            VStack{
+                ForEach(self.$downloader.galleries){ gallery in
+                    NavigationLink{
+                        AlbumPhotosView(gallery: gallery)
+                    } label:{
+                        AlbumPreviewCell(gallery: gallery)
+                    }
+                }
+            }.onAppear{
+                if(downloader.galleries.count <= 1){
+                    downloader.downloadGalleries(urlString: "http://jsonplaceholder.typicode.com/albums?userId=\(self.user.id)")
+                }
+            }
+        }
     }
 }
 

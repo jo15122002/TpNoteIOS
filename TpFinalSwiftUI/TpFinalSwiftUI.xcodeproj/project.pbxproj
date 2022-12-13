@@ -9,7 +9,13 @@
 /* Begin PBXBuildFile section */
 		ED1D60B12948C77900D19056 /* UserCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60B02948C77900D19056 /* UserCellView.swift */; };
 		ED1D60B32948C79600D19056 /* UserAlbumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60B22948C79600D19056 /* UserAlbumsView.swift */; };
-		ED1D60B52948C85300D19056 /* UserGalleryDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60B42948C85300D19056 /* UserGalleryDownloader.swift */; };
+		ED1D60B72948C94200D19056 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60B62948C94200D19056 /* Gallery.swift */; };
+		ED1D60B92948CB6400D19056 /* AlbumPhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60B82948CB6400D19056 /* AlbumPhotosView.swift */; };
+		ED1D60BB2948CB9800D19056 /* AlbumPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60BA2948CB9800D19056 /* AlbumPreviewCell.swift */; };
+		ED1D60BF2948CD6700D19056 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60BE2948CD6700D19056 /* Photos.swift */; };
+		ED1D60C12948CE2B00D19056 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60C02948CE2B00D19056 /* NetworkManager.swift */; };
+		ED1D60C32948D0A900D19056 /* UserGalleryDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60C22948D0A900D19056 /* UserGalleryDownloader.swift */; };
+		ED1D60C52948D0CB00D19056 /* UserPhotosDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED1D60C42948D0CB00D19056 /* UserPhotosDownloader.swift */; };
 		ED56C8A32948685A005B12A5 /* TpFinalSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8A22948685A005B12A5 /* TpFinalSwiftUIApp.swift */; };
 		ED56C8A52948685A005B12A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8A42948685A005B12A5 /* ContentView.swift */; };
 		ED56C8A72948685B005B12A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED56C8A62948685B005B12A5 /* Assets.xcassets */; };
@@ -41,7 +47,14 @@
 /* Begin PBXFileReference section */
 		ED1D60B02948C77900D19056 /* UserCellView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCellView.swift; sourceTree = "<group>"; };
 		ED1D60B22948C79600D19056 /* UserAlbumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAlbumsView.swift; sourceTree = "<group>"; };
-		ED1D60B42948C85300D19056 /* UserGalleryDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserGalleryDownloader.swift; path = ../../TpFinalSwift/TpFinalSwift/UserGalleryDownloader.swift; sourceTree = "<group>"; };
+		ED1D60B62948C94200D19056 /* Gallery.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gallery.swift; path = ../../TpFinalSwift/TpFinalSwift/Gallery.swift; sourceTree = "<group>"; };
+		ED1D60B82948CB6400D19056 /* AlbumPhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPhotosView.swift; sourceTree = "<group>"; };
+		ED1D60BA2948CB9800D19056 /* AlbumPreviewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPreviewCell.swift; sourceTree = "<group>"; };
+		ED1D60BE2948CD6700D19056 /* Photos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photos.swift; path = ../../TpFinalSwift/TpFinalSwift/Photos.swift; sourceTree = "<group>"; };
+		ED1D60C02948CE2B00D19056 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkManager.swift; path = ../../TpFinalSwift/TpFinalSwift/NetworkManager.swift; sourceTree = "<group>"; };
+		ED1D60C22948D0A900D19056 /* UserGalleryDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGalleryDownloader.swift; sourceTree = "<group>"; };
+		ED1D60C42948D0CB00D19056 /* UserPhotosDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotosDownloader.swift; sourceTree = "<group>"; };
+		ED1D60C62948D15600D19056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		ED56C89F2948685A005B12A5 /* TpFinalSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpFinalSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED56C8A22948685A005B12A5 /* TpFinalSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpFinalSwiftUIApp.swift; sourceTree = "<group>"; };
 		ED56C8A42948685A005B12A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,15 +117,22 @@
 		ED56C8A12948685A005B12A5 /* TpFinalSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				ED1D60C62948D15600D19056 /* Info.plist */,
 				ED56C8A22948685A005B12A5 /* TpFinalSwiftUIApp.swift */,
 				ED1D60B02948C77900D19056 /* UserCellView.swift */,
 				ED56C8A42948685A005B12A5 /* ContentView.swift */,
 				ED56C8A62948685B005B12A5 /* Assets.xcassets */,
 				ED56C8A82948685B005B12A5 /* Preview Content */,
 				ED56C90E29487A8E005B12A5 /* UserListDownloader.swift */,
+				ED1D60C22948D0A900D19056 /* UserGalleryDownloader.swift */,
+				ED1D60C42948D0CB00D19056 /* UserPhotosDownloader.swift */,
 				ED56C91029487AAB005B12A5 /* Users.swift */,
 				ED1D60B22948C79600D19056 /* UserAlbumsView.swift */,
-				ED1D60B42948C85300D19056 /* UserGalleryDownloader.swift */,
+				ED1D60BA2948CB9800D19056 /* AlbumPreviewCell.swift */,
+				ED1D60B82948CB6400D19056 /* AlbumPhotosView.swift */,
+				ED1D60B62948C94200D19056 /* Gallery.swift */,
+				ED1D60BE2948CD6700D19056 /* Photos.swift */,
+				ED1D60C02948CE2B00D19056 /* NetworkManager.swift */,
 			);
 			path = TpFinalSwiftUI;
 			sourceTree = "<group>";
@@ -272,13 +292,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED1D60BF2948CD6700D19056 /* Photos.swift in Sources */,
+				ED1D60B72948C94200D19056 /* Gallery.swift in Sources */,
+				ED1D60C12948CE2B00D19056 /* NetworkManager.swift in Sources */,
 				ED56C91129487AAB005B12A5 /* Users.swift in Sources */,
+				ED1D60B92948CB6400D19056 /* AlbumPhotosView.swift in Sources */,
+				ED1D60C32948D0A900D19056 /* UserGalleryDownloader.swift in Sources */,
 				ED56C8A52948685A005B12A5 /* ContentView.swift in Sources */,
+				ED1D60BB2948CB9800D19056 /* AlbumPreviewCell.swift in Sources */,
 				ED56C8A32948685A005B12A5 /* TpFinalSwiftUIApp.swift in Sources */,
 				ED1D60B32948C79600D19056 /* UserAlbumsView.swift in Sources */,
-				ED1D60B52948C85300D19056 /* UserGalleryDownloader.swift in Sources */,
 				ED1D60B12948C77900D19056 /* UserCellView.swift in Sources */,
 				ED56C90F29487A8E005B12A5 /* UserListDownloader.swift in Sources */,
+				ED1D60C52948D0CB00D19056 /* UserPhotosDownloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +465,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TpFinalSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TpFinalSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -467,6 +494,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TpFinalSwiftUI/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TpFinalSwiftUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

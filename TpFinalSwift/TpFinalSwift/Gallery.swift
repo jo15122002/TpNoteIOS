@@ -14,6 +14,10 @@ struct GalleryElement: Codable, Identifiable, Equatable {
         case userID = "userId"
         case id, title
     }
+    
+    static func defaultGalleryElement()->GalleryElement{
+        return GalleryElement(userID: 99, id: 55, title: "A gallery title")
+    }
 }
 
 typealias Gallery = [GalleryElement]
