@@ -13,6 +13,7 @@ import Foundation
 //   let users = try? newJSONDecoder().decode(Users.self, from: jsonData)
 
 import Foundation
+import MapKit
 
 // MARK: - User
 struct User: Codable, Identifiable, Equatable {
@@ -52,3 +53,18 @@ struct Company: Codable {
 }
 
 typealias Users = [User]
+
+
+class UserPin:NSObject, MKAnnotation{
+    var title: String?
+    var coordinate: CLLocationCoordinate2D
+    var info: String
+    var id:Int
+
+    init(title: String, coordinate: CLLocationCoordinate2D, info: String, id:Int) {
+        self.title = title
+        self.coordinate = coordinate
+        self.info = info
+        self.id = id
+    }
+}

@@ -30,6 +30,7 @@
                     <navigationItem key="navigationItem" id="XeL-02-8im"/>
                     <connections>
                         <outlet property="map" destination="Wg0-X9-aPI" id="HTy-ct-9l8"/>
+                        <segue destination="0LS-jY-Ggb" kind="show" identifier="toUserGalleries2" id="fhG-Xi-l2P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -273,6 +274,9 @@
             <point key="canvasLocation" x="1061.8320610687022" y="0.70422535211267612"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="fhG-Xi-l2P"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="list.bullet" catalog="system" width="128" height="87"/>
         <image name="map" catalog="system" width="128" height="112"/>
