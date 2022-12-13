@@ -10,6 +10,7 @@
 		ED4B0BFA2948AB2F00AE92B7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B0BF92948AB2F00AE92B7 /* NetworkManager.swift */; };
 		ED4B0BFC2948B14700AE92B7 /* AlbumPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B0BFB2948B14700AE92B7 /* AlbumPhotosViewController.swift */; };
 		ED4B0BFE2948B19800AE92B7 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B0BFD2948B19800AE92B7 /* ImageViewCell.swift */; };
+		ED4B0C002948B7AE00AE92B7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B0BFF2948B7AE00AE92B7 /* MapViewController.swift */; };
 		ED56C8D929486936005B12A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8D829486936005B12A5 /* AppDelegate.swift */; };
 		ED56C8DB29486936005B12A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8DA29486936005B12A5 /* SceneDelegate.swift */; };
 		ED56C8DD29486936005B12A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8DC29486936005B12A5 /* ViewController.swift */; };
@@ -52,6 +53,7 @@
 		ED4B0BF92948AB2F00AE92B7 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		ED4B0BFB2948B14700AE92B7 /* AlbumPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPhotosViewController.swift; sourceTree = "<group>"; };
 		ED4B0BFD2948B19800AE92B7 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
+		ED4B0BFF2948B7AE00AE92B7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		ED56C8D529486936005B12A5 /* TpFinalSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpFinalSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED56C8D829486936005B12A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED56C8DA29486936005B12A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 				ED56C8DC29486936005B12A5 /* ViewController.swift */,
 				ED56C90C29486CEC005B12A5 /* UserListViewController.swift */,
 				ED56C8DE29486936005B12A5 /* Main.storyboard */,
+				ED4B0BFF2948B7AE00AE92B7 /* MapViewController.swift */,
 				ED4B0BFD2948B19800AE92B7 /* ImageViewCell.swift */,
 				ED56C8E129486937005B12A5 /* Assets.xcassets */,
 				ED56C8E329486937005B12A5 /* LaunchScreen.storyboard */,
@@ -313,6 +316,7 @@
 				ED56C90929486C39005B12A5 /* UserJsonDownloader.swift in Sources */,
 				ED56C915294888D1005B12A5 /* UserGalleriesViewController.swift in Sources */,
 				ED56C90D29486CEC005B12A5 /* UserListViewController.swift in Sources */,
+				ED4B0C002948B7AE00AE92B7 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
