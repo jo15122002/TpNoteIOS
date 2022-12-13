@@ -1,13 +1,13 @@
 //
-//  TpNoteSwiftUITestsLaunchTests.swift
-//  TpNoteSwiftUITests
+//  TpFinalSwiftUIUITestsLaunchTests.swift
+//  TpFinalSwiftUIUITests
 //
 //  Created by digital on 13/12/2022.
 //
 
 import XCTest
 
-final class TpNoteSwiftUITestsLaunchTests: XCTestCase {
+final class TpFinalSwiftUIUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

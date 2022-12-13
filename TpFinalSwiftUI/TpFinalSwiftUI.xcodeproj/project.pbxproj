@@ -7,66 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED56C867294865AA005B12A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C866294865AA005B12A5 /* AppDelegate.swift */; };
-		ED56C869294865AA005B12A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C868294865AA005B12A5 /* SceneDelegate.swift */; };
-		ED56C86B294865AA005B12A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C86A294865AA005B12A5 /* ViewController.swift */; };
-		ED56C86E294865AA005B12A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED56C86C294865AA005B12A5 /* Main.storyboard */; };
-		ED56C870294865AC005B12A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED56C86F294865AC005B12A5 /* Assets.xcassets */; };
-		ED56C873294865AC005B12A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED56C871294865AC005B12A5 /* LaunchScreen.storyboard */; };
-		ED56C87E294865AC005B12A5 /* TpNoteSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C87D294865AC005B12A5 /* TpNoteSwiftTests.swift */; };
-		ED56C888294865AC005B12A5 /* TpNoteSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C887294865AC005B12A5 /* TpNoteSwiftUITests.swift */; };
-		ED56C88A294865AC005B12A5 /* TpNoteSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C889294865AC005B12A5 /* TpNoteSwiftUITestsLaunchTests.swift */; };
+		ED56C8A32948685A005B12A5 /* TpFinalSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8A22948685A005B12A5 /* TpFinalSwiftUIApp.swift */; };
+		ED56C8A52948685A005B12A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8A42948685A005B12A5 /* ContentView.swift */; };
+		ED56C8A72948685B005B12A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED56C8A62948685B005B12A5 /* Assets.xcassets */; };
+		ED56C8AA2948685B005B12A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED56C8A92948685B005B12A5 /* Preview Assets.xcassets */; };
+		ED56C8B42948685B005B12A5 /* TpFinalSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8B32948685B005B12A5 /* TpFinalSwiftUITests.swift */; };
+		ED56C8BE2948685B005B12A5 /* TpFinalSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8BD2948685B005B12A5 /* TpFinalSwiftUIUITests.swift */; };
+		ED56C8C02948685B005B12A5 /* TpFinalSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8BF2948685B005B12A5 /* TpFinalSwiftUIUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		ED56C87A294865AC005B12A5 /* PBXContainerItemProxy */ = {
+		ED56C8B02948685B005B12A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ED56C85B294865AA005B12A5 /* Project object */;
+			containerPortal = ED56C8972948685A005B12A5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED56C862294865AA005B12A5;
-			remoteInfo = TpNoteSwift;
+			remoteGlobalIDString = ED56C89E2948685A005B12A5;
+			remoteInfo = TpFinalSwiftUI;
 		};
-		ED56C884294865AC005B12A5 /* PBXContainerItemProxy */ = {
+		ED56C8BA2948685B005B12A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = ED56C85B294865AA005B12A5 /* Project object */;
+			containerPortal = ED56C8972948685A005B12A5 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ED56C862294865AA005B12A5;
-			remoteInfo = TpNoteSwift;
+			remoteGlobalIDString = ED56C89E2948685A005B12A5;
+			remoteInfo = TpFinalSwiftUI;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		ED56C863294865AA005B12A5 /* TpNoteSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpNoteSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED56C866294865AA005B12A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ED56C868294865AA005B12A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ED56C86A294865AA005B12A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED56C86D294865AA005B12A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		ED56C86F294865AC005B12A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ED56C872294865AC005B12A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		ED56C874294865AC005B12A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ED56C879294865AC005B12A5 /* TpNoteSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TpNoteSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED56C87D294865AC005B12A5 /* TpNoteSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpNoteSwiftTests.swift; sourceTree = "<group>"; };
-		ED56C883294865AC005B12A5 /* TpNoteSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TpNoteSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ED56C887294865AC005B12A5 /* TpNoteSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpNoteSwiftUITests.swift; sourceTree = "<group>"; };
-		ED56C889294865AC005B12A5 /* TpNoteSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpNoteSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED56C89F2948685A005B12A5 /* TpFinalSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpFinalSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED56C8A22948685A005B12A5 /* TpFinalSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpFinalSwiftUIApp.swift; sourceTree = "<group>"; };
+		ED56C8A42948685A005B12A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ED56C8A62948685B005B12A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED56C8A92948685B005B12A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ED56C8AF2948685B005B12A5 /* TpFinalSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TpFinalSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED56C8B32948685B005B12A5 /* TpFinalSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpFinalSwiftUITests.swift; sourceTree = "<group>"; };
+		ED56C8B92948685B005B12A5 /* TpFinalSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TpFinalSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED56C8BD2948685B005B12A5 /* TpFinalSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpFinalSwiftUIUITests.swift; sourceTree = "<group>"; };
+		ED56C8BF2948685B005B12A5 /* TpFinalSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TpFinalSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		ED56C860294865AA005B12A5 /* Frameworks */ = {
+		ED56C89C2948685A005B12A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED56C876294865AC005B12A5 /* Frameworks */ = {
+		ED56C8AC2948685B005B12A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED56C880294865AC005B12A5 /* Frameworks */ = {
+		ED56C8B62948685B005B12A5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		ED56C85A294865AA005B12A5 = {
+		ED56C8962948685A005B12A5 = {
 			isa = PBXGroup;
 			children = (
-				ED56C865294865AA005B12A5 /* TpNoteSwift */,
-				ED56C87C294865AC005B12A5 /* TpNoteSwiftTests */,
-				ED56C886294865AC005B12A5 /* TpNoteSwiftUITests */,
-				ED56C864294865AA005B12A5 /* Products */,
+				ED56C8A12948685A005B12A5 /* TpFinalSwiftUI */,
+				ED56C8B22948685B005B12A5 /* TpFinalSwiftUITests */,
+				ED56C8BC2948685B005B12A5 /* TpFinalSwiftUIUITests */,
+				ED56C8A02948685A005B12A5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		ED56C864294865AA005B12A5 /* Products */ = {
+		ED56C8A02948685A005B12A5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				ED56C863294865AA005B12A5 /* TpNoteSwift.app */,
-				ED56C879294865AC005B12A5 /* TpNoteSwiftTests.xctest */,
-				ED56C883294865AC005B12A5 /* TpNoteSwiftUITests.xctest */,
+				ED56C89F2948685A005B12A5 /* TpFinalSwiftUI.app */,
+				ED56C8AF2948685B005B12A5 /* TpFinalSwiftUITests.xctest */,
+				ED56C8B92948685B005B12A5 /* TpFinalSwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ED56C865294865AA005B12A5 /* TpNoteSwift */ = {
+		ED56C8A12948685A005B12A5 /* TpFinalSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				ED56C866294865AA005B12A5 /* AppDelegate.swift */,
-				ED56C868294865AA005B12A5 /* SceneDelegate.swift */,
-				ED56C86A294865AA005B12A5 /* ViewController.swift */,
-				ED56C86C294865AA005B12A5 /* Main.storyboard */,
-				ED56C86F294865AC005B12A5 /* Assets.xcassets */,
-				ED56C871294865AC005B12A5 /* LaunchScreen.storyboard */,
-				ED56C874294865AC005B12A5 /* Info.plist */,
+				ED56C8A22948685A005B12A5 /* TpFinalSwiftUIApp.swift */,
+				ED56C8A42948685A005B12A5 /* ContentView.swift */,
+				ED56C8A62948685B005B12A5 /* Assets.xcassets */,
+				ED56C8A82948685B005B12A5 /* Preview Content */,
 			);
-			path = TpNoteSwift;
+			path = TpFinalSwiftUI;
 			sourceTree = "<group>";
 		};
-		ED56C87C294865AC005B12A5 /* TpNoteSwiftTests */ = {
+		ED56C8A82948685B005B12A5 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				ED56C87D294865AC005B12A5 /* TpNoteSwiftTests.swift */,
+				ED56C8A92948685B005B12A5 /* Preview Assets.xcassets */,
 			);
-			path = TpNoteSwiftTests;
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		ED56C886294865AC005B12A5 /* TpNoteSwiftUITests */ = {
+		ED56C8B22948685B005B12A5 /* TpFinalSwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				ED56C887294865AC005B12A5 /* TpNoteSwiftUITests.swift */,
-				ED56C889294865AC005B12A5 /* TpNoteSwiftUITestsLaunchTests.swift */,
+				ED56C8B32948685B005B12A5 /* TpFinalSwiftUITests.swift */,
 			);
-			path = TpNoteSwiftUITests;
+			path = TpFinalSwiftUITests;
+			sourceTree = "<group>";
+		};
+		ED56C8BC2948685B005B12A5 /* TpFinalSwiftUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ED56C8BD2948685B005B12A5 /* TpFinalSwiftUIUITests.swift */,
+				ED56C8BF2948685B005B12A5 /* TpFinalSwiftUIUITestsLaunchTests.swift */,
+			);
+			path = TpFinalSwiftUIUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		ED56C862294865AA005B12A5 /* TpNoteSwift */ = {
+		ED56C89E2948685A005B12A5 /* TpFinalSwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED56C88D294865AC005B12A5 /* Build configuration list for PBXNativeTarget "TpNoteSwift" */;
+			buildConfigurationList = ED56C8C32948685B005B12A5 /* Build configuration list for PBXNativeTarget "TpFinalSwiftUI" */;
 			buildPhases = (
-				ED56C85F294865AA005B12A5 /* Sources */,
-				ED56C860294865AA005B12A5 /* Frameworks */,
-				ED56C861294865AA005B12A5 /* Resources */,
+				ED56C89B2948685A005B12A5 /* Sources */,
+				ED56C89C2948685A005B12A5 /* Frameworks */,
+				ED56C89D2948685A005B12A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = TpNoteSwift;
-			productName = TpNoteSwift;
-			productReference = ED56C863294865AA005B12A5 /* TpNoteSwift.app */;
+			name = TpFinalSwiftUI;
+			productName = TpFinalSwiftUI;
+			productReference = ED56C89F2948685A005B12A5 /* TpFinalSwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ED56C878294865AC005B12A5 /* TpNoteSwiftTests */ = {
+		ED56C8AE2948685B005B12A5 /* TpFinalSwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED56C890294865AC005B12A5 /* Build configuration list for PBXNativeTarget "TpNoteSwiftTests" */;
+			buildConfigurationList = ED56C8C62948685B005B12A5 /* Build configuration list for PBXNativeTarget "TpFinalSwiftUITests" */;
 			buildPhases = (
-				ED56C875294865AC005B12A5 /* Sources */,
-				ED56C876294865AC005B12A5 /* Frameworks */,
-				ED56C877294865AC005B12A5 /* Resources */,
+				ED56C8AB2948685B005B12A5 /* Sources */,
+				ED56C8AC2948685B005B12A5 /* Frameworks */,
+				ED56C8AD2948685B005B12A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ED56C87B294865AC005B12A5 /* PBXTargetDependency */,
+				ED56C8B12948685B005B12A5 /* PBXTargetDependency */,
 			);
-			name = TpNoteSwiftTests;
-			productName = TpNoteSwiftTests;
-			productReference = ED56C879294865AC005B12A5 /* TpNoteSwiftTests.xctest */;
+			name = TpFinalSwiftUITests;
+			productName = TpFinalSwiftUITests;
+			productReference = ED56C8AF2948685B005B12A5 /* TpFinalSwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		ED56C882294865AC005B12A5 /* TpNoteSwiftUITests */ = {
+		ED56C8B82948685B005B12A5 /* TpFinalSwiftUIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ED56C893294865AC005B12A5 /* Build configuration list for PBXNativeTarget "TpNoteSwiftUITests" */;
+			buildConfigurationList = ED56C8C92948685B005B12A5 /* Build configuration list for PBXNativeTarget "TpFinalSwiftUIUITests" */;
 			buildPhases = (
-				ED56C87F294865AC005B12A5 /* Sources */,
-				ED56C880294865AC005B12A5 /* Frameworks */,
-				ED56C881294865AC005B12A5 /* Resources */,
+				ED56C8B52948685B005B12A5 /* Sources */,
+				ED56C8B62948685B005B12A5 /* Frameworks */,
+				ED56C8B72948685B005B12A5 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				ED56C885294865AC005B12A5 /* PBXTargetDependency */,
+				ED56C8BB2948685B005B12A5 /* PBXTargetDependency */,
 			);
-			name = TpNoteSwiftUITests;
-			productName = TpNoteSwiftUITests;
-			productReference = ED56C883294865AC005B12A5 /* TpNoteSwiftUITests.xctest */;
+			name = TpFinalSwiftUIUITests;
+			productName = TpFinalSwiftUIUITests;
+			productReference = ED56C8B92948685B005B12A5 /* TpFinalSwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		ED56C85B294865AA005B12A5 /* Project object */ = {
+		ED56C8972948685A005B12A5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
-					ED56C862294865AA005B12A5 = {
+					ED56C89E2948685A005B12A5 = {
 						CreatedOnToolsVersion = 14.1;
 					};
-					ED56C878294865AC005B12A5 = {
+					ED56C8AE2948685B005B12A5 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = ED56C862294865AA005B12A5;
+						TestTargetID = ED56C89E2948685A005B12A5;
 					};
-					ED56C882294865AC005B12A5 = {
+					ED56C8B82948685B005B12A5 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = ED56C862294865AA005B12A5;
+						TestTargetID = ED56C89E2948685A005B12A5;
 					};
 				};
 			};
-			buildConfigurationList = ED56C85E294865AA005B12A5 /* Build configuration list for PBXProject "TpNoteSwift" */;
+			buildConfigurationList = ED56C89A2948685A005B12A5 /* Build configuration list for PBXProject "TpFinalSwiftUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = ED56C85A294865AA005B12A5;
-			productRefGroup = ED56C864294865AA005B12A5 /* Products */;
+			mainGroup = ED56C8962948685A005B12A5;
+			productRefGroup = ED56C8A02948685A005B12A5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				ED56C862294865AA005B12A5 /* TpNoteSwift */,
-				ED56C878294865AC005B12A5 /* TpNoteSwiftTests */,
-				ED56C882294865AC005B12A5 /* TpNoteSwiftUITests */,
+				ED56C89E2948685A005B12A5 /* TpFinalSwiftUI */,
+				ED56C8AE2948685B005B12A5 /* TpFinalSwiftUITests */,
+				ED56C8B82948685B005B12A5 /* TpFinalSwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		ED56C861294865AA005B12A5 /* Resources */ = {
+		ED56C89D2948685A005B12A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED56C873294865AC005B12A5 /* LaunchScreen.storyboard in Resources */,
-				ED56C870294865AC005B12A5 /* Assets.xcassets in Resources */,
-				ED56C86E294865AA005B12A5 /* Main.storyboard in Resources */,
+				ED56C8AA2948685B005B12A5 /* Preview Assets.xcassets in Resources */,
+				ED56C8A72948685B005B12A5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED56C877294865AC005B12A5 /* Resources */ = {
+		ED56C8AD2948685B005B12A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED56C881294865AC005B12A5 /* Resources */ = {
+		ED56C8B72948685B005B12A5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,69 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		ED56C85F294865AA005B12A5 /* Sources */ = {
+		ED56C89B2948685A005B12A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED56C86B294865AA005B12A5 /* ViewController.swift in Sources */,
-				ED56C867294865AA005B12A5 /* AppDelegate.swift in Sources */,
-				ED56C869294865AA005B12A5 /* SceneDelegate.swift in Sources */,
+				ED56C8A52948685A005B12A5 /* ContentView.swift in Sources */,
+				ED56C8A32948685A005B12A5 /* TpFinalSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED56C875294865AC005B12A5 /* Sources */ = {
+		ED56C8AB2948685B005B12A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED56C87E294865AC005B12A5 /* TpNoteSwiftTests.swift in Sources */,
+				ED56C8B42948685B005B12A5 /* TpFinalSwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ED56C87F294865AC005B12A5 /* Sources */ = {
+		ED56C8B52948685B005B12A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED56C88A294865AC005B12A5 /* TpNoteSwiftUITestsLaunchTests.swift in Sources */,
-				ED56C888294865AC005B12A5 /* TpNoteSwiftUITests.swift in Sources */,
+				ED56C8BE2948685B005B12A5 /* TpFinalSwiftUIUITests.swift in Sources */,
+				ED56C8C02948685B005B12A5 /* TpFinalSwiftUIUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		ED56C87B294865AC005B12A5 /* PBXTargetDependency */ = {
+		ED56C8B12948685B005B12A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED56C862294865AA005B12A5 /* TpNoteSwift */;
-			targetProxy = ED56C87A294865AC005B12A5 /* PBXContainerItemProxy */;
+			target = ED56C89E2948685A005B12A5 /* TpFinalSwiftUI */;
+			targetProxy = ED56C8B02948685B005B12A5 /* PBXContainerItemProxy */;
 		};
-		ED56C885294865AC005B12A5 /* PBXTargetDependency */ = {
+		ED56C8BB2948685B005B12A5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = ED56C862294865AA005B12A5 /* TpNoteSwift */;
-			targetProxy = ED56C884294865AC005B12A5 /* PBXContainerItemProxy */;
+			target = ED56C89E2948685A005B12A5 /* TpFinalSwiftUI */;
+			targetProxy = ED56C8BA2948685B005B12A5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		ED56C86C294865AA005B12A5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED56C86D294865AA005B12A5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ED56C871294865AC005B12A5 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED56C872294865AC005B12A5 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		ED56C88B294865AC005B12A5 /* Debug */ = {
+		ED56C8C12948685B005B12A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		ED56C88C294865AC005B12A5 /* Release */ = {
+		ED56C8C22948685B005B12A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,18 +409,19 @@
 			};
 			name = Release;
 		};
-		ED56C88E294865AC005B12A5 /* Debug */ = {
+		ED56C8C42948685B005B12A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TpFinalSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TpNoteSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,7 +429,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jojo.TpNoteSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = jojo.TpFinalSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -457,18 +437,19 @@
 			};
 			name = Debug;
 		};
-		ED56C88F294865AC005B12A5 /* Release */ = {
+		ED56C8C52948685B005B12A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TpFinalSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TpNoteSwift/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -476,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jojo.TpNoteSwift;
+				PRODUCT_BUNDLE_IDENTIFIER = jojo.TpFinalSwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -484,7 +465,7 @@
 			};
 			name = Release;
 		};
-		ED56C891294865AC005B12A5 /* Debug */ = {
+		ED56C8C72948685B005B12A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,16 +475,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jojo.TpNoteSwiftTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jojo.TpFinalSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TpNoteSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TpNoteSwift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TpFinalSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TpFinalSwiftUI";
 			};
 			name = Debug;
 		};
-		ED56C892294865AC005B12A5 /* Release */ = {
+		ED56C8C82948685B005B12A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -513,16 +494,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jojo.TpNoteSwiftTests;
+				PRODUCT_BUNDLE_IDENTIFIER = jojo.TpFinalSwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TpNoteSwift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TpNoteSwift";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TpFinalSwiftUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TpFinalSwiftUI";
 			};
 			name = Release;
 		};
-		ED56C894294865AC005B12A5 /* Debug */ = {
+		ED56C8CA2948685B005B12A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -530,16 +511,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jojo.TpNoteSwiftUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = jojo.TpFinalSwiftUIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TpNoteSwift;
+				TEST_TARGET_NAME = TpFinalSwiftUI;
 			};
 			name = Debug;
 		};
-		ED56C895294865AC005B12A5 /* Release */ = {
+		ED56C8CB2948685B005B12A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,55 +528,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jojo.TpNoteSwiftUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = jojo.TpFinalSwiftUIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TpNoteSwift;
+				TEST_TARGET_NAME = TpFinalSwiftUI;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		ED56C85E294865AA005B12A5 /* Build configuration list for PBXProject "TpNoteSwift" */ = {
+		ED56C89A2948685A005B12A5 /* Build configuration list for PBXProject "TpFinalSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED56C88B294865AC005B12A5 /* Debug */,
-				ED56C88C294865AC005B12A5 /* Release */,
+				ED56C8C12948685B005B12A5 /* Debug */,
+				ED56C8C22948685B005B12A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED56C88D294865AC005B12A5 /* Build configuration list for PBXNativeTarget "TpNoteSwift" */ = {
+		ED56C8C32948685B005B12A5 /* Build configuration list for PBXNativeTarget "TpFinalSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED56C88E294865AC005B12A5 /* Debug */,
-				ED56C88F294865AC005B12A5 /* Release */,
+				ED56C8C42948685B005B12A5 /* Debug */,
+				ED56C8C52948685B005B12A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED56C890294865AC005B12A5 /* Build configuration list for PBXNativeTarget "TpNoteSwiftTests" */ = {
+		ED56C8C62948685B005B12A5 /* Build configuration list for PBXNativeTarget "TpFinalSwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED56C891294865AC005B12A5 /* Debug */,
-				ED56C892294865AC005B12A5 /* Release */,
+				ED56C8C72948685B005B12A5 /* Debug */,
+				ED56C8C82948685B005B12A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ED56C893294865AC005B12A5 /* Build configuration list for PBXNativeTarget "TpNoteSwiftUITests" */ = {
+		ED56C8C92948685B005B12A5 /* Build configuration list for PBXNativeTarget "TpFinalSwiftUIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED56C894294865AC005B12A5 /* Debug */,
-				ED56C895294865AC005B12A5 /* Release */,
+				ED56C8CA2948685B005B12A5 /* Debug */,
+				ED56C8CB2948685B005B12A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = ED56C85B294865AA005B12A5 /* Project object */;
+	rootObject = ED56C8972948685A005B12A5 /* Project object */;
 }

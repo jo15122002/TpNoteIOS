@@ -1,13 +1,13 @@
 //
-//  TpNoteSwiftUITests.swift
-//  TpNoteSwiftUITests
+//  TpFinalSwiftUIUITests.swift
+//  TpFinalSwiftUIUITests
 //
 //  Created by digital on 13/12/2022.
 //
 
 import XCTest
 
-final class TpNoteSwiftUITests: XCTestCase {
+final class TpFinalSwiftUIUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
