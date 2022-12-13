@@ -52,9 +52,9 @@ class UserListViewController: UIViewController, UITableViewDelegate, UITableView
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let id = segue.identifier{
-            if id == "toUserGalleries"{
-                if let dest = segue.destination as? UserGalleriesViewController{
-                    dest.userId = self.selectedUserId
+            if id == "toAlbumPhotos"{
+                if let dest = segue.destination as? AlbumPhotosViewController{
+                    dest.albumId = self.selectedUserId
                 }
             }
         }

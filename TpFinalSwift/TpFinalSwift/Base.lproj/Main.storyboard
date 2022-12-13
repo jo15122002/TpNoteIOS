@@ -98,14 +98,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="APY-0j-vwT">
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="APY-0j-vwT">
                             <size key="itemSize" width="294" height="128"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="album" id="Uno-SY-YFs">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="album" id="Uno-SY-YFs" customClass="AlbumViewCell" customModule="TpFinalSwift" customModuleProvider="target">
                                 <rect key="frame" x="49.666666666666664" y="0.0" width="294" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="OD8-Ny-HRG">
@@ -120,6 +120,13 @@
                                             <rect key="frame" x="203" y="24" width="83" height="81"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1OB-Ml-oMp">
+                                            <rect key="frame" x="126" y="107" width="160" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sfR-dK-PcT">
                                             <rect key="frame" x="105" y="24" width="83" height="81"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -127,6 +134,13 @@
                                     </subviews>
                                 </collectionViewCellContentView>
                                 <size key="customSize" width="294" height="128"/>
+                                <connections>
+                                    <outlet property="albumTitle" destination="1OB-Ml-oMp" id="Mry-SI-1LJ"/>
+                                    <outlet property="thumbnail1" destination="rEh-OC-I1H" id="p4a-3k-2D6"/>
+                                    <outlet property="thumbnail2" destination="sfR-dK-PcT" id="BTf-Mn-vmO"/>
+                                    <outlet property="thumbnail3" destination="7o1-6r-Fj9" id="h0z-lJ-xbp"/>
+                                    <segue destination="eE7-X7-djt" kind="show" identifier="toAlbumPhotos" id="sTa-PZ-Seu"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
@@ -142,6 +156,53 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ylC-S1-qRb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2896.9465648854962" y="-654.22535211267609"/>
+        </scene>
+        <!--Album Photos View Controller-->
+        <scene sceneID="k5w-52-3aR">
+            <objects>
+                <collectionViewController id="eE7-X7-djt" customClass="AlbumPhotosViewController" customModule="TpFinalSwift" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="GLC-0J-bya">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="g4j-QE-b69">
+                            <size key="itemSize" width="128" height="128"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="photo" id="bqJ-Qe-UIz" customClass="ImageViewCell" customModule="TpFinalSwift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bZo-rp-5f3">
+                                    <rect key="frame" x="0.0" y="0.0" width="127.99999999999997" height="128"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4v9-pH-bZ5">
+                                            <rect key="frame" x="0.0" y="0.0" width="128" height="128"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        </imageView>
+                                    </subviews>
+                                </collectionViewCellContentView>
+                                <connections>
+                                    <outlet property="photo" destination="4v9-pH-bZ5" id="Nc6-86-RNl"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="eE7-X7-djt" id="UhD-yQ-fJG"/>
+                            <outlet property="delegate" destination="eE7-X7-djt" id="LY8-bQ-aXp"/>
+                        </connections>
+                    </collectionView>
+                    <navigationItem key="navigationItem" id="erg-HX-AMq"/>
+                    <connections>
+                        <outlet property="photosCollectionView" destination="GLC-0J-bya" id="as1-U6-p9g"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EA0-iv-tq2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3765.6488549618321" y="-654.22535211267609"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="UBk-SN-peI">

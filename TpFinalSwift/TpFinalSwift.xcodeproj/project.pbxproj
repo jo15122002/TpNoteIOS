@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED4B0BFA2948AB2F00AE92B7 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B0BF92948AB2F00AE92B7 /* NetworkManager.swift */; };
+		ED4B0BFC2948B14700AE92B7 /* AlbumPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B0BFB2948B14700AE92B7 /* AlbumPhotosViewController.swift */; };
+		ED4B0BFE2948B19800AE92B7 /* ImageViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4B0BFD2948B19800AE92B7 /* ImageViewCell.swift */; };
 		ED56C8D929486936005B12A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8D829486936005B12A5 /* AppDelegate.swift */; };
 		ED56C8DB29486936005B12A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8DA29486936005B12A5 /* SceneDelegate.swift */; };
 		ED56C8DD29486936005B12A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C8DC29486936005B12A5 /* ViewController.swift */; };
@@ -24,6 +27,8 @@
 		ED56C91729488988005B12A5 /* Gallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C91629488988005B12A5 /* Gallery.swift */; };
 		ED56C91929488A23005B12A5 /* UserGalleryDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C91829488A23005B12A5 /* UserGalleryDownloader.swift */; };
 		ED56C91B29489802005B12A5 /* AlbumViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C91A29489802005B12A5 /* AlbumViewCell.swift */; };
+		ED56C91F2948A1E0005B12A5 /* UserPhotosDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C91E2948A1E0005B12A5 /* UserPhotosDownloader.swift */; };
+		ED56C9212948A428005B12A5 /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED56C9202948A428005B12A5 /* Photos.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED4B0BF92948AB2F00AE92B7 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		ED4B0BFB2948B14700AE92B7 /* AlbumPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPhotosViewController.swift; sourceTree = "<group>"; };
+		ED4B0BFD2948B19800AE92B7 /* ImageViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewCell.swift; sourceTree = "<group>"; };
 		ED56C8D529486936005B12A5 /* TpFinalSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TpFinalSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED56C8D829486936005B12A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED56C8DA29486936005B12A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +73,8 @@
 		ED56C91629488988005B12A5 /* Gallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gallery.swift; sourceTree = "<group>"; };
 		ED56C91829488A23005B12A5 /* UserGalleryDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGalleryDownloader.swift; sourceTree = "<group>"; };
 		ED56C91A29489802005B12A5 /* AlbumViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewCell.swift; sourceTree = "<group>"; };
+		ED56C91E2948A1E0005B12A5 /* UserPhotosDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPhotosDownloader.swift; sourceTree = "<group>"; };
+		ED56C9202948A428005B12A5 /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +125,7 @@
 		ED56C8D729486936005B12A5 /* TpFinalSwift */ = {
 			isa = PBXGroup;
 			children = (
+				ED4B0BF92948AB2F00AE92B7 /* NetworkManager.swift */,
 				ED56C912294881F2005B12A5 /* UserViewCell.swift */,
 				ED56C91A29489802005B12A5 /* AlbumViewCell.swift */,
 				ED56C8D829486936005B12A5 /* AppDelegate.swift */,
@@ -122,6 +133,7 @@
 				ED56C8DC29486936005B12A5 /* ViewController.swift */,
 				ED56C90C29486CEC005B12A5 /* UserListViewController.swift */,
 				ED56C8DE29486936005B12A5 /* Main.storyboard */,
+				ED4B0BFD2948B19800AE92B7 /* ImageViewCell.swift */,
 				ED56C8E129486937005B12A5 /* Assets.xcassets */,
 				ED56C8E329486937005B12A5 /* LaunchScreen.storyboard */,
 				ED56C8E629486937005B12A5 /* Info.plist */,
@@ -130,6 +142,9 @@
 				ED56C914294888D1005B12A5 /* UserGalleriesViewController.swift */,
 				ED56C91629488988005B12A5 /* Gallery.swift */,
 				ED56C91829488A23005B12A5 /* UserGalleryDownloader.swift */,
+				ED56C91E2948A1E0005B12A5 /* UserPhotosDownloader.swift */,
+				ED56C9202948A428005B12A5 /* Photos.swift */,
+				ED4B0BFB2948B14700AE92B7 /* AlbumPhotosViewController.swift */,
 			);
 			path = TpFinalSwift;
 			sourceTree = "<group>";
@@ -287,9 +302,14 @@
 				ED56C8DD29486936005B12A5 /* ViewController.swift in Sources */,
 				ED56C91729488988005B12A5 /* Gallery.swift in Sources */,
 				ED56C913294881F2005B12A5 /* UserViewCell.swift in Sources */,
+				ED56C91F2948A1E0005B12A5 /* UserPhotosDownloader.swift in Sources */,
 				ED56C8D929486936005B12A5 /* AppDelegate.swift in Sources */,
+				ED4B0BFC2948B14700AE92B7 /* AlbumPhotosViewController.swift in Sources */,
+				ED56C9212948A428005B12A5 /* Photos.swift in Sources */,
 				ED56C90B29486C81005B12A5 /* Users.swift in Sources */,
 				ED56C8DB29486936005B12A5 /* SceneDelegate.swift in Sources */,
+				ED4B0BFA2948AB2F00AE92B7 /* NetworkManager.swift in Sources */,
+				ED4B0BFE2948B19800AE92B7 /* ImageViewCell.swift in Sources */,
 				ED56C90929486C39005B12A5 /* UserJsonDownloader.swift in Sources */,
 				ED56C915294888D1005B12A5 /* UserGalleriesViewController.swift in Sources */,
 				ED56C90D29486CEC005B12A5 /* UserListViewController.swift in Sources */,

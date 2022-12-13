@@ -6,7 +6,17 @@
 //
 
 import Foundation
+import UIKit
 
-class AlbumCellView{
+class AlbumViewCell:UICollectionViewCell{
+    
+    @IBOutlet weak var albumTitle: UILabel!
+    @IBOutlet weak var thumbnail3: UIImageView!
+    @IBOutlet weak var thumbnail2: UIImageView!
+    @IBOutlet weak var thumbnail1: UIImageView!
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
     
 }

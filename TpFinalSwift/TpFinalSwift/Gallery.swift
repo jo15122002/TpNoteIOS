@@ -6,7 +6,7 @@
 import Foundation
 
 // MARK: - GalleryElement
-struct GalleryElement: Codable {
+struct GalleryElement: Codable, Identifiable, Equatable {
     let userID, id: Int
     let title: String
 
